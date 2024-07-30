@@ -1,0 +1,94 @@
+body {
+   
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffe5b4; /* Discord theme color */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   padding:110px;
+}
+
+.discord-logo {
+    width: 300px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.join-button {
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    background-color: #070a27; /* Discord button color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    height: 70px;
+    width: 200px;
+}
+
+.join-button:hover {
+    background-color: #4752c4; /* Darker shade for hover effect */
+}
+
+
+h1{
+    color: #b90e41;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 2.5rem;
+  }
+  h1 a{
+    text-decoration: none;
+    color: #b90e41;
+  }
+  h1 a:hover{
+    color: #b90e41;
+  }
+  .navBar{
+    text-align: center;
+    padding: 0 20px;
+    margin: 0 auto;
+  }
+  .navBar ul{
+    background-color: darkviolet;
+  }
+  .navBar li{
+    background-color: darkviolet;
+    color: white;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+  }
+  .navBar li a{
+    text-decoration: none;
+    background-color: darkviolet;
+    color: white;
+  }
+  .navBar li a:hover{
+    border-bottom: 2px solid yellow;
+  }
+  .active{
+    border-bottom: 2px solid yellow;
+  }
+  .sticky{
+    z-index: 1000;
+    position: sticky;
+    top: 0;
+  }
+
+  h1 {
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 25px;
+   text-align: center;
+   font-weight: bold;
+}
