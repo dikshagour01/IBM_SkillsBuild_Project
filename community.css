@@ -3,8 +3,8 @@ body {
     height: 100vh;
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #ffe5b4; /* Discord theme color */
-}
+    background-color: #ffe5b4;
+  }
 
 .container {
     display: flex;
